@@ -1,0 +1,248 @@
+
+/* title section */
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid
+{
+  padding : 3% 15% 7%;
+}
+
+body
+{
+  font-family: "Monsterrat", sans-serif;
+}
+
+h1
+{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+/* navigation bar */
+
+.navbar
+{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item
+{
+  padding: 0 18px;
+}
+
+.nav-link
+{
+  font-family: "Monsterrat", sans-serif;
+  font-weight: lighter;
+  font-size : 1.2rem;
+}
+
+/* donload buttons */
+
+.download-button
+{
+  margin : 5% 3% 3% 0%
+}
+
+
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+
+/* fratures section */
+
+#features
+{
+  padding: 10% 15%;
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
+}
+
+
+
+.feature-icon
+{
+  color: #ef8172;
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+
+.feature-icon:hover
+{
+  color: #ff4c68;
+}
+
+.feature-icon-heading
+{
+  font-family: "Monsterrat",sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.feature-icon-disc
+{
+  color: #8f8f8f;
+  padding: 0 17%;
+}
+
+
+/* testimonial section */
+
+#testimonials
+{
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.carousel-item
+{
+    padding: 7% 15%;
+}
+
+.testimonials-desc
+{
+  color: #fff;
+  font-size: 3rem;
+  font-family: "Monsterrat", sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.testimonials-image
+{
+  border-radius: 100%;
+  width: 10%;
+  margin : 20px;
+}
+
+#press
+{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo
+{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* pricing section */
+
+#pricing
+{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-heading
+{
+  font-family: "Monsterrat", sans-serif;
+  font-weight: 900;
+  font-size: 2.7rem;
+}
+
+.princing-desc
+{
+  color: #8f8f8f;
+}
+
+.price
+{
+  font-family: "Monsterrat", sans-serif;
+  font-weight: 900;
+  font-size: 2.7rem;
+}
+
+.price-head-breed
+{
+  font-family: "Monsterrat",sans-serif;
+  font-weight: 800;
+  font-size: 1.7rem;
+}
+
+.pricing-column
+{
+  padding: 3% 2%;
+}
+
+.price-card-desc
+{
+  color: #8f8f8f;
+  padding: 0 17%;
+}
+/* cta section */
+
+#cta
+{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 22%;
+}
+
+.cta-heading
+{
+  color: #fff;
+  font-family: "Monsterrat" , sans-serif;
+  font-weight: 900;
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+
+
+
+/* footer section */
+
+#footer
+{
+  text-align: center;
+  padding: 7% 15% 4%;
+}
+
+.footer-icon
+{
+  padding: 0.8%;
+}
+
+.footer-para
+{
+  color: #8f8f8f;
+  font-family: "Monsterrat",sans-serif;
+}
+/* media queries */
+
+@media (max-width : 1028px) {
+
+  #title
+  {
+    text-align: center;
+  }
+
+  .title-image
+  {
+    position: static;
+    transform: rotate(0);
+    width : 50%;
+  }
+}
